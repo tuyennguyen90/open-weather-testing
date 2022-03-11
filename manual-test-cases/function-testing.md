@@ -122,7 +122,44 @@ Functional testing:
 	- Expected Result:
 		- Verify the results is shown the first input city
 		
-
-
 ==========================================
+Check color base on Temp
 
+13. Verify the color of cities show as Orange correctly
+	- Pre-conditions:
+		- The Open Weather website is shown
+	- Steps:
+		- Observe the city Orange color
+		- Click to view the weather detail on the textbox
+		- Observe the the Temp value
+	- Expected Result:
+		- Verify the Temp value shown from 20 to 27 degree, and the city color is Orange
+
+14. Verify the color of cities show as light Orange correctly
+	- Pre-conditions:
+		- The Open Weather website is shown
+	- Steps:
+		- Observe the city light Orange color
+		- Click to view the weather detail on the textbox
+		- Observe the the Temp value
+	- Expected Result:
+		- Verify the Temp value shown from 5 to 20 degree, and the city color is light Orange
+15. Verify the color of cities show as Red correctly
+	- Pre-conditions:
+		- The Open Weather website is shown
+	- Steps:
+		- Observe the city Red color
+		- Click to view the weather detail on the textbox
+		- Observe the the Temp value
+	- Expected Result:
+		- Verify the Temp value shown above 29 degree, and the city color is Red
+
+16. Verify the color of cities show as Blue correctly
+	- Pre-conditions:
+		- The Open Weather website is shown
+	- Steps:
+		- Observe the city Blue color
+		- Click to view the weather detail on the textbox
+		- Observe the the Temp value
+	- Expected Result:
+		- Verify the Temp value shown less 10 degree, and the city color is Blue
