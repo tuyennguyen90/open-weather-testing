@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "2738bff8-d809-4489-90e5-4b95b14c034d",
+		"name": "OpenWeather-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search valid city",
+			"item": [
+				{
+					"name": "https://openweathermap.org/data/2.5/find?callback=jQuery191022566082343777238_1646909755890&q=%C4%90%C3%A0i%20B%E1%BA%AFc&type=like&sort=population&cnt=30&appid=439d4b804bc8187953eb36d2a8c26a02&_=1646909755892",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://openweathermap.org/data/2.5/find?callback=jQuery191022566082343777238_1646909755890&q=%C4%90%C3%A0i%20B%E1%BA%AFc&type=like&sort=population&cnt=30&appid=439d4b804bc8187953eb36d2a8c26a02&_=1646909755892",
+							"protocol": "https",
+							"host": [
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"find"
+							],
+							"query": [
+								{
+									"key": "callback",
+									"value": "jQuery191022566082343777238_1646909755890"
+								},
+								{
+									"key": "q",
+									"value": "%C4%90%C3%A0i%20B%E1%BA%AFc"
+								},
+								{
+									"key": "type",
+									"value": "like"
+								},
+								{
+									"key": "sort",
+									"value": "population"
+								},
+								{
+									"key": "cnt",
+									"value": "30"
+								},
+								{
+									"key": "appid",
+									"value": "439d4b804bc8187953eb36d2a8c26a02"
+								},
+								{
+									"key": "_",
+									"value": "1646909755892"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Search Invalid city",
+			"item": [
+				{
+					"name": "Search invalid city",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "View weather detail",
+			"item": [
+				{
+					"name": "View weather details",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Search multi cities",
+			"item": [
+				{
+					"name": "Search multi cities",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://openweathermap.org/find?q=Vung+Tau%2C+Ho+Chi+MInh",
+							"protocol": "https",
+							"host": [
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"find"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Vung+Tau%2C+Ho+Chi+MInh"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
